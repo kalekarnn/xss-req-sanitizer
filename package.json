@@ -38,6 +38,7 @@
     "html",
     "injection",
     "request",
-    "middleware"
+    "middleware",
+    "express"
   ]
 }
