@@ -7,7 +7,7 @@
 
 ## Installation
 
-    npm install xss-sanitizer
+    npm install xss-req-sanitizer
     
 ## How to use ?
 
