@@ -1,7 +1,7 @@
-# xss-sanitizer
+# xss-req-sanitizer
 
-[![Build Status](https://travis-ci.com/kalekarnn/xss-sanitizer.svg?branch=main)](https://travis-ci.com/kalekarnn/xss-sanitizer)
-[![Coverage Status](https://coveralls.io/repos/github/kalekarnn/xss-sanitizer/badge.svg)](https://coveralls.io/github/kalekarnn/xss-sanitizer)
+[![Build Status](https://travis-ci.com/kalekarnn/xss-sanitizer.svg?branch=main)](https://travis-ci.com/kalekarnn/xss-req-sanitizer)
+[![Coverage Status](https://coveralls.io/repos/github/kalekarnn/xss-sanitizer/badge.svg)](https://coveralls.io/github/kalekarnn/xss-req-sanitizer)
 
 > `xss-sanitizer` is a middleware to sanitize http requests to prevent XSS attacks.
 
@@ -13,7 +13,7 @@
 
     var express = require('express')
     var bodyParser = require('body-parser')
-    var xssSanitizer = require('xss-sanitizer')
+    var xssSanitizer = require('xss-req-sanitizer')
 
     var app = express()
 
@@ -36,7 +36,7 @@
     npm test
     
 ## License
-[MIT](https://github.com/kalekarnn/xss-sanitizer/blob/main/LICENSE)
+[MIT](https://github.com/kalekarnn/xss-req-sanitizer/blob/main/LICENSE)
 
 ## Keywords
 xss, sanitization, middleware, request, security
