@@ -1,1 +1,1 @@
-module.exports = require('./lib/request-sanitizer.js');
+module.exports = require('./lib/xss-req-sanitizer.js');
