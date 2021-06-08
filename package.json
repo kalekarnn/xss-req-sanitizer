@@ -1,6 +1,6 @@
 {
   "name": "xss-req-sanitizer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Middleware to sanitize http requests",
   "main": "index.js",
   "scripts": {
