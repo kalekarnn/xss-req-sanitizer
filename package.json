@@ -1,11 +1,13 @@
 {
   "name": "xss-sanitizer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Middleware to sanitize http requests",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha",
-    "test-cov": "nyc --reporter=lcov mocha --exit \"test/*.js\" && nyc report"
+    "posttest": "nyc report -r=lcov",
+    "test-cov": "nyc --reporter=lcov mocha --exit \"test/*.js\" && nyc report",
+    "coveralls": "cat coverage/lcov.info | coveralls"
   },
   "author": "Narendra Kalekar",
   "dependencies": {
@@ -14,17 +16,18 @@
   "devDependencies": {
     "body-parser": "^1.19.0",
     "chai": "4.3.4",
-    "express": "^4.17.1",
+    "coveralls": "3.1.0",
+    "express": "4.17.1",
     "mocha": "8.4.0",
     "node-mocks-http": "1.10.1",
-    "nyc": "^15.1.0",
-    "supertest": "^6.1.3"
+    "nyc": "15.1.0",
+    "supertest": "6.1.3"
   },
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/kalekarnn/xss-sanitizer/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/kalekarnn/xss-sanitizer",
   "keywords": [
     "xss",
     "sanitizer",
