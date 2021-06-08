@@ -37,8 +37,5 @@
     
 ## License
 [MIT](https://github.com/kalekarnn/xss-req-sanitizer/blob/main/LICENSE)
-
-## Keywords
-xss, sanitization, middleware, request, security
     
     
