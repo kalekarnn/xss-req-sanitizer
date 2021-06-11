@@ -28,6 +28,13 @@
     "url": "https://github.com/kalekarnn/xss-sanitizer/issues"
   },
   "homepage": "https://github.com/kalekarnn/xss-sanitizer",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "package.json",
+    "lib/"
+  ],
   "keywords": [
     "xss",
     "sanitizer",
