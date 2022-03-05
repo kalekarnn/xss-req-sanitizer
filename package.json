@@ -11,7 +11,7 @@
   },
   "author": "Narendra Kalekar",
   "dependencies": {
-    "xss": "1.0.9"
+    "xss": "1.0.10"
   },
   "devDependencies": {
     "body-parser": "^1.19.0",
